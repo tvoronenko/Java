@@ -1,0 +1,16 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		QuickUnionWUF uf = new QuickUnionWUF(10);
+		uf.union(9, 3);
+		uf.union(0, 7);
+		uf.union(6, 5);
+		uf.union(1, 7);
+		uf.union(4, 5);
+		uf.union(9, 1);
+		uf.getAr();
+		
+	}
+
+}
